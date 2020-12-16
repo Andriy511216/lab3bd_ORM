@@ -1,0 +1,41 @@
+.div-card {
+    margin: 30px;
+    background: rgb(150, 136, 13);
+    height: 400px;
+    transition: all .3s ease-in-out;
+    border: 2px solid purple;
+    
+}
+
+.div-card:hover{
+    transform: scale(1.1);
+}
+
+body {
+    background: rgb(230, 229, 173);
+}
+
+
+.tableheader {
+    border-right: 1px solid black;
+    border-top-right-radius: 20px;
+}
+
+.row:hover {
+    background: rgba(190, 104, 211, 0.3);
+}
+
+.searchForm {
+    max-width: 600px;
+}
+
+.form-editing-hidden {
+    display: none;
+}
+
+.card-btn {
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
+    left: 25%;
+}
